@@ -8,15 +8,33 @@ class FurnitureGridComponent {
     }
 
     fetchFurniture = () => 
-    setTimeout(() => {
-    API.fetchFurniture(this.saveFurniture, alert);
-    }, 1000);
+        setTimeout(() => {
+        API.fetchFurniture(
+            (furniture) => {
+                this.state.loading = false;
+                this.saveFurniture(furniture);
+            },
+            (err) => {
+                alert(err)
+                this.state.loading = false
+
+                this.render();
+            }
+            );
+        }, 1000);
 
     saveFurniture = (furniture) => {
         this.state.furniture = furniture;
-        this.state.loading = false;
 
         this.render();
+    }
+
+    deleteFurniture = (id) => {
+        API.deleteFurniture(
+            id,
+            () => API.fetchFurniture(this.saveFurniture, alert),
+            alert
+        );
     }
 
     init = () => {
@@ -42,7 +60,10 @@ class FurnitureGridComponent {
         } else if(furniture.length > 0){
             this.htmlElement.innerHTML = '';
             const furnitureElements = furniture
-            .map(x => new FurnitureCardComponent(x))
+            .map(({ id, ...props }) => new FurnitureCardComponent({
+                ...props,
+                onDelete: () => this.deleteFurniture(id)
+            }))
             .map(x => x.htmlElement)
             .map(this.wrapInColumn)
             this.htmlElement.append(...furnitureElements);
