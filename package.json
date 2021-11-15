@@ -1,0 +1,23 @@
+{
+  "name": "tomas-antanaitis-dom-furniture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-win": "node_modules\\.bin\\json-server --watch database.json",
+    "start-unix": "node_modules/.bin/json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orpeq/tomas-antanaitis-dom-furniture.git"
+  },
+  "author": "Tomas Antanaitis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orpeq/tomas-antanaitis-dom-furniture/issues"
+  },
+  "homepage": "https://github.com/orpeq/tomas-antanaitis-dom-furniture#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
