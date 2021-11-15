@@ -1,76 +1,58 @@
 {
-    "furniture": [
-        {
-            "id": "1",
-            "title": "Lova",
-            "type": "Miegamojo baldai",
-            "price": 499,
-            "location": {
-                "country": "Latvija",
-                "city": "Jurmala",
-                "street": "Komarovo g."
-            },
-            "owner": {
-                "fullname": "Oskars Kentaurs",
-                "mobile": "+3716769482",
-                "address": "Naujamiestis",
-                "email": "goldenboi@draugs.lv"
-            },
-            "imgSrc": "https://lovosciuziniai.lt/wp-content/uploads/2019/09/miegamojo-lova-nikoletti-1.jpg"
-        },
-        {
-            "id": "2",
-            "title": "Stalas",
-            "type": "Virtuvės baldai",
-            "price": 1200,
-            "location": {
-                "country": "Lenkija",
-                "city": "Varšuva",
-                "street": "Georgijaus g."
-            },
-            "owner": {
-                "fullname": "Pawel Mackevic",
-                "mobile": "+373466482",
-                "address": "Centras",
-                "email": "paska@hotmail.pl;"
-            },
-            "imgSrc": "https://www.easebaldai.lt/uploads/_CGSmartImage/stalas-1_1583164979-651755e53638314fafde967ed0e12f81.jpg"
-        },
-        {
-            "id": "3",
-            "title": "Biuro kėdė",
-            "type": "Biuro baldai",
-            "price": 350.99,
-            "location": {
-                "country": "Lietuva",
-                "city": "Vilnius",
-                "street": "Priegliaus g."
-            },
-            "owner": {
-                "fullname": "Gitanius Jausėdi",
-                "mobile": "+37010101010",
-                "address": "Pavilnys",
-                "email": "moteryte@gmail.com"
-            },
-            "imgSrc": "https://imuperku.lt/2321621-thickbox_default/office-chair-swivel-office-chair-for-the-desk.jpg"
-        },
-        {
-            "id": "4",
-            "title": "Komoda",
-            "type": "Miegamojo baldai",
-            "price": 399.99,
-            "location": {
-                "country": "Lietuva",
-                "city": "Kaunas",
-                "street": "Vilniaus g."
-            },
-            "owner": {
-                "fullname": "Marius Riebokšnis",
-                "mobile": "+37063561070",
-                "address": "Senamiestis",
-                "email": "gvadelupe@inbox.lt"
-            },
-            "imgSrc": "https://www.mondo.lt/wp-content/uploads/2020/08/file0036338.jpg"
-        }
-    ]
+  "furniture": [
+    {
+      "id": "2",
+      "title": "Stalas",
+      "type": "Virtuvės baldai",
+      "price": 1200,
+      "location": {
+        "country": "Lenkija",
+        "city": "Varšuva",
+        "street": "Georgijaus g."
+      },
+      "owner": {
+        "fullname": "Pawel Mackevic",
+        "mobile": "+373466482",
+        "address": "Centras",
+        "email": "paska@hotmail.pl;"
+      },
+      "imgSrc": "https://www.easebaldai.lt/uploads/_CGSmartImage/stalas-1_1583164979-651755e53638314fafde967ed0e12f81.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Biuro kėdė",
+      "type": "Biuro baldai",
+      "price": 350.99,
+      "location": {
+        "country": "Lietuva",
+        "city": "Vilnius",
+        "street": "Priegliaus g."
+      },
+      "owner": {
+        "fullname": "Gitanius Jausėdi",
+        "mobile": "+37010101010",
+        "address": "Pavilnys",
+        "email": "moteryte@gmail.com"
+      },
+      "imgSrc": "https://imuperku.lt/2321621-thickbox_default/office-chair-swivel-office-chair-for-the-desk.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Komoda",
+      "type": "Miegamojo baldai",
+      "price": 399.99,
+      "location": {
+        "country": "Lietuva",
+        "city": "Kaunas",
+        "street": "Vilniaus g."
+      },
+      "owner": {
+        "fullname": "Marius Riebokšnis",
+        "mobile": "+37063561070",
+        "address": "Senamiestis",
+        "email": "gvadelupe@inbox.lt"
+      },
+      "imgSrc": "https://www.mondo.lt/wp-content/uploads/2020/08/file0036338.jpg"
+    }
+  ]
 }
